@@ -1,0 +1,10 @@
+[report]
+include = *.py
+omit =
+    tests.py
+    *_test.py
+    *_tests.py
+    */site-packages/*
+    */migrations/*
+    */python3/*
+    */python3.9/*
