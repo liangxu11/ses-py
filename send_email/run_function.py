@@ -42,6 +42,7 @@ def demo1():
             "shipOptionMaxTransitTimeasDays": 3
         }
     ]
+
     appConfig_json_convert = ApConfigJsonConvert(event_json, 'ngskjdp')
     merge = appConfig_json_convert.convert_and_merge()
     print(merge)
